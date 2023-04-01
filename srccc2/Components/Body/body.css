@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagetext1{
+    color: white;
+    font-size: 65px;
+    font-weight: bolder;
+    margin-left: 470px;
+    padding-top: 110px;
+}
+.pagetext2 #p1{
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-left: 580px;
+}
+.pagetext2 #p2{
+    color: white;
+    font-size: 30px;
+    margin-left: 590px;
+    padding-top: 7px;
+}
+.bimg1{
+    position: absolute;
+    top: 100px;
+}
+.bimg2{
+    position: absolute;
+    top: 180px;
+    left: 1150px;
+}
+.bimg3{
+    position: absolute;
+    top:-320px;
+    left: 16%;
+}
+.bimg4{
+    position: absolute;
+    top: 280px;
+    z-index: 5;
+    height: 70%;
+}

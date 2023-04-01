@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.comp1{
+    /* padding-top: 120px; */
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(247,247,245);
+    margin-top: 120px;
+   
+}
+.comp1 article{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    
+}
+.leftcomp{
+    width: 50%;
+    height: 120vh;
+}
+.leftcomp h1{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: last baseline;
+    height: 400px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.content{
+    margin-left: 50px;
+    font-weight: bolder;
+} 
+.list{
+    height: 350px;
+}
+.list li{
+    margin-left: 50px;
+    list-style:none ;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.check{
+    color: rgb(237,117,1);
+    width: 20px;
+    height: 25px;
+}
+.check:hover{
+    color: black;
+}
+.list li{
+    display: flex;
+    align-items: center;
+}
+.list li .check{
+    height: 25px;
+    width: 30px;
+}
+/*=====================*/
+.right{
+    width: 50%;
+    height: 140vh;
+}
+.Rightcomp{  
+    display: flex;
+}
+.mid{
+    width: 50%;
+}
+.card1{
+    height: 40%;
+    margin: 20px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px darkgrey;
+}
+.card2{
+    height: 40%;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px darkgrey;
+}
+.card3{
+    height: 40%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px darkgrey;
+}
+.card4{
+    height: 40%;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px darkgrey;
+}
+.mid div div img{
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.mid div div img:hover{
+    transform: scale(20px,20px)
+}
+.right div div img{
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.info{
+    padding: 20px;
+}
+.info h3{
+    font-weight: 50px;
+}
+.info p{
+    padding-top: 10px;
+    font-weight: 500;
+}
+.info .read {
+    color: rgb(237,117,1);
+}
+.img1, .img2, .img3, .img4{
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.img1 img:hover,.img2 img:hover,.img3 img:hover,.img4 img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
+}

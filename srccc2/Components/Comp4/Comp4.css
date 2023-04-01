@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.comp4{
+    width: 100%;
+    height: 150vh;
+    font-size: 300%;
+}
+.comp4 article{
+    width: 90%;
+    margin: 0 auto;
+}
+.comp4 article div{
+    display: flex;
+    justify-content: space-between;
+}
+.comp4 article .updiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.lowdiv1{
+    width: 100%;
+    height: 85vh;
+}
+.lowdiv1 article{
+    width: 95%;
+    display: flex;
+    justify-content:space-around;
+}
+.divup{
+    margin-top: 40px;
+    height: 600px;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.divup img{
+    width: 400px;
+    height: 250px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.divup img:hover, .cimg img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
+}   
+.cimg{
+    overflow: hidden;
+}
+.cimg img{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.divup p{
+    font-size: large;
+    padding-top: 20px;
+}
+.divup p:hover {
+    color: rgb(237,117,1);
+}
+.divup h3{
+    font-size: 35px;
+    padding-top: 20px;
+}
+.divup h3:hover{
+    color: rgb(237,117,1);
+}
+/*=================*/
+.readmore{
+    width: 100%;
+    height: 300px
+}
+.readmore .btn{
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.readmore .btn button{
+    height: 60px;
+    width: 300px;
+    margin-left: 38%;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: rgb(237,117,1);
+    border: 1px solid rgb(237,117,1);
+    display: block;
+    background-color: white;
+    font-size: medium;
+}
+.readmore .btn button:hover{
+   background-color:rgb(237,117,1) ;
+   color: white;
+   border: 1px solid white;
+   cursor: pointer;
+}
+.quote{
+    height: 140px;
+    display: block;
+    font-size: 43px;
+    padding-top: 80px;
+    font-weight: bolder;
+    padding-left: 50px;
+    color: rgb(237,117,1);
+}
+.Lquote{
+    display: block;
+    font-size: 43px;
+    font-weight: bolder;
+    padding-left: 140px;
+    color: rgb(237,117,1);
+}
+.Lread{
+    width: 100%;
+}

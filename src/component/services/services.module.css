@@ -1,0 +1,87 @@
+.services{
+    height: 150vh;
+    margin-top: 7.2em;
+    display: flex;
+}
+.services>.aside1{
+    width: 50%;
+    height: inherit;
+}
+.services>.aside1>.div1 {
+    width: 80%;
+    height: inherit;
+    margin: 0 auto;
+    font-size: 18px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1>ul{
+    position: relative;
+}
+.icon{
+    margin-top: 10px;
+    position: absolute;
+    color: #ed7501;
+}
+.div1>ul>li{
+    list-style: none;
+    margin-left: 2em;
+    margin-top: 10px;
+}
+.services>.aside2{
+    height: inherit;
+    width: 50%;
+}
+.services>.aside2>.div2{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+/* !Card */
+.Card{
+    height: 65vh;
+    width: 20vw;
+    background-color: rgb(235, 229, 224);
+    border-radius: 1em 1em 1em 1em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.Card>article{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.Card>article>.aside1{
+    height: 50%;
+    border-radius: 0.8em 0.8em 0 0;
+    overflow: hidden;
+}
+.Card>article>.aside1>img{
+    height: 106%;
+    transition: all ease-in-out.4s;
+}
+.Card>article>.aside1>img:hover {
+    transform: scale(1.05);
+    transition: all ease-in-out.4s;
+}
+.Card>article>.aside2 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+.aside2>.footer{
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    color: #ed7501;
+}

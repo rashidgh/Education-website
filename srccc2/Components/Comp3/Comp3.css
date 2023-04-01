@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.comp3{
+    width: 100%;
+    height: 80vh;
+    padding-top: 80px;
+    font-size: 300%;
+}
+.comp3 article{
+    width: 90%;
+    margin: 0 auto;
+}
+.head{
+    width: 600px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.head2{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.comp3 article{
+    width: 90%;
+    margin: 0 auto;
+}
+.lowdiv{
+    height: 50vh;
+}
+.lowdiv article{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+.lowdiv article div{
+   width: 300px;
+   color: rgb(25, 25, 33);
+}
+.lowdiv article div .num{
+    font-weight: bolder;
+ }
+.lowdiv article div .n{
+    font-size: 40px;
+    font-weight: bolder;
+ }

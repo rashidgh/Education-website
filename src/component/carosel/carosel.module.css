@@ -1,0 +1,13 @@
+.carosel{
+    height: 103vh;
+    background-image: url("../../Assets/background_03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    position:absolute;
+    top: 2em;
+    right:5em
+};
+

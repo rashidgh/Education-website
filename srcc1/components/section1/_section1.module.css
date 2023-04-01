@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap");
+.sec1 {
+  position: relative;
+}
+
+.Ennab {
+  background-image: url("../../assets/background_03.jpg");
+  height: 105vh;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 9%;
+  z-index: 2;
+}
+
+.Ennab h3 {
+  font-size: 62px;
+  font-weight: 600 !important;
+  margin-left: 29%;
+  line-height: 44px;
+}
+
+.Ennab h1 {
+  font-size: 100px;
+  font-weight: 800 !important;
+  margin-left: 34%;
+}
+
+.Ennab div {
+  width: 43%;
+  height: auto;
+  /* background-color: antiquewhite; */
+  font-size: 24px;
+  margin-left: 34%;
+  letter-spacing: 1.02px;
+  word-spacing: 1.02px;
+}
+.Ennabimg {
+  z-index: -1;
+}
+.Wave {
+  position: absolute;
+  top: 65.5vh;
+}
+.Floating4 {
+  width: 533px;
+  height: auto;
+  position: absolute;
+  top: 38.5vh;
+  left: 2%;
+}
+.Floating3 {
+  width: 480px;
+  height: auto;
+  position: absolute;
+  top: 35vh;
+  left: 68%;
+}
+.Floating2 {
+  width: 253px;
+  height: auto;
+  position: absolute;
+  top: 15vh;
+  left: 1%;
+}
+.Floating1 {
+  width: 570px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}

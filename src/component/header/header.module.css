@@ -1,0 +1,41 @@
+.headerBlock{
+    width: 100%;
+    height: 2.5em;
+    background-color: #ed7501;
+}
+.headerBlock>div{
+    height: inherit;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.aside1{
+    height: auto;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.aside1>span{
+    transition: all ease-in-out 0.3s;
+}
+.aside1>span:hover{
+    color: rgb(181, 177, 177);
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.aside2 {
+    height: auto;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.aside2>span {
+    margin-left: 10px;
+    transition: all ease-in-out .3s;
+}
+.aside2>span:hover {
+    color: rgb(181, 177, 177);
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}

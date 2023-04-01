@@ -1,0 +1,149 @@
+.appBar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.appBar>div {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aside1 {
+    width: 45%;
+}
+
+.aside1>img {
+    height: 68px;
+}
+
+.aside2 {
+    width: 55%;
+}
+
+.aside2>ul {
+    display: flex;
+    width: 100%;
+    height: 68px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside2>ul li {
+    list-style: none;
+    padding: 6px 12px;
+    border-bottom: 2px solid transparent;
+}
+
+.aside2>ul .lii:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all ease-in-out .3s;
+    border-radius: 3px;
+    border-bottom: 2px solid orangered;
+}
+
+.serach {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.serach:hover {
+    color: orangered;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+.Services {
+    position: relative;
+}
+
+.Services>.list {
+    position: absolute;
+    top: 2.5em;
+    display: none;
+    width: 13.5em;
+}
+
+.Services:hover .list {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all ease-in-out .1s;
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 5;
+    background-color: #fff;
+}
+.list>li:hover{
+    color: orangered;
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+}
+/* ! */
+.Products {
+    position: relative;
+}
+
+.Products>.list {
+    position: absolute;
+    top: 2.5em;
+    display: none;
+    width: 13.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Products:hover .list {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all ease-in-out .3s;
+    display: block;
+    background-color: #fff;
+    z-index: 5;
+}
+
+/* ! */
+.Industries {
+    position: relative;
+}
+
+.Industries>.list {
+    position: absolute;
+    top: 2.5em;
+    display: none;
+    width: 13.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Industries:hover .list {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all ease-in-out .3s;
+    display: block;
+    background-color: #fff;
+    z-index: 5;
+}
+
+/* ! */
+
+.About {
+    position: relative;
+}
+
+.About>.list {
+    position: absolute;
+    top: 2.5em;
+    
+    display: none;
+    width: 13.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.About:hover .list {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all ease-in-out .3s;
+    display: block;
+    background-color: #fff;
+    z-index: 5;
+}

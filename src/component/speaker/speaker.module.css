@@ -1,0 +1,30 @@
+.speakerBlock{
+    height: 90vh;
+}
+.speakerBlock>article{
+    height: 100%;
+}
+.speakerBlock .aside1{
+    height:20%;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+}
+.speakerBlock .aside2{
+    height: 80%;
+    width: 85%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.speakerBlock .aside2>div{
+    line-height: 38px;
+}
+.speakerBlock .aside2>div>h2{
+    font-size: 40px;
+}
+.speakerBlock .aside2>div>h3 {
+    font-size: 30px;
+    font-weight: 800;
+}

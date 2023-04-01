@@ -1,0 +1,64 @@
+.sectionBlock5 {
+  width: 100%;
+  /* height: 100vh; */
+  /* background-color: antiquewhite; */
+}
+.articleBlock5 {
+  width: 79%;
+  /* height: inherit; */
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+  margin-bottom: 50px;
+}
+.heading5 {
+  padding: 4% 0 6% 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+  font-size: 32px;
+  color: rgb(48, 48, 48);
+  font-weight: 500;
+}
+
+.card5 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.ReadDiv {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.ReadBtn {
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: 1px solid #ff6600;
+  color: #ff6600;
+  background: none;
+  font-size: 16px;
+}
+.ReadBtn:hover {
+  background-color: #ff6600;
+  color: white;
+  transition-duration: 0.5s;
+  transform: scale(1.02);
+}
+
+.cardImg:hover {
+  transition-duration: 0.8s;
+  transform: scale(1.05);
+}
+
+/* .CardImg2:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+} */
+
+.head {
+  width: 95%;
+  color: #ff6600;
+  font-size: 34px;
+  text-align: center;
+  margin: 0 auto;
+}

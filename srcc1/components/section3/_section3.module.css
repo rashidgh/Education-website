@@ -1,0 +1,34 @@
+.sectionBlock3 {
+  width: 100%;
+  height: auto;
+  background-color: #f7f7f5;
+}
+.articleBlock3 {
+  margin: 0 auto;
+  width: 80%;
+  padding: 5% 0;
+  /* background-color: blue ; */
+  display: flex;
+  gap: 25px;
+}
+
+.noteBoard {
+  width: 442px;
+  height: 442px;
+  background-color: white;
+  padding: 20px;
+}
+
+.noteBoard h1 {
+  color: #ea7732;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 40px 20px 20px 20px;
+}
+
+.noteBoard p {
+  font-size: 16px;
+  padding: 0px 20px 20px 20px;
+  line-height: 25px;
+}

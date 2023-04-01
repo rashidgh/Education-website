@@ -1,0 +1,61 @@
+.sec2 {
+  width: 100%;
+  height: 1100px;
+  background-color: #f7f7f5;
+}
+
+.art2 {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+  position: relative;
+}
+.asd2 {
+  position: absolute;
+  width: 43%;
+  top: 250px;
+  /* background-color: brown; */
+  padding-bottom: 40px;
+}
+
+.asd2 div h1 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.asd2 p {
+  font-size: 17px;
+  padding-bottom: 10px;
+  letter-spacing: 1.01px;
+}
+.ul2{
+      padding-top: 15px;
+}
+.ul2 li {
+  list-style: none;
+  line-height: 35px;
+}
+.ul2 li a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1.02px;
+  z-index: 1;
+}
+
+.checkIcon{
+      color: orangered;
+}
+
+.checkIcon:hover{
+      color: black;
+}
+
+.whiteBottom img{
+  position: absolute;
+  top: 522px;
+  width: 98.5vw;
+  height: auto;
+  left: -29.5%;
+  /* background-image: url("../../assets/white_bottom_wave_01.png"); */
+}

@@ -1,0 +1,38 @@
+.navMain{
+      width: 100%;
+      height: 70px;
+      background-color: #ffffff;
+      /* border-bottom: 1px solid black; */
+}
+.navMain1{
+      width: 75%;
+      height: inherit;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+}
+
+.navMainLogo{
+      width: auto;
+      height: 70px;
+}
+
+.menuBlock ul{
+      display: flex;
+      gap: 40px;
+      padding-top: 25px;
+}
+
+.menuBlock ul li{
+      list-style: none;
+}
+
+.menuBlock ul li a{
+      text-decoration: none;
+      color:rgb(90, 90, 90);
+      font-weight: bold;
+}
+
+.menuBlock ul li a:hover{
+      border-bottom: 2px solid orange;
+}
